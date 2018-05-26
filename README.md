@@ -29,7 +29,7 @@ now you just need do the three step as below:
 
 ***
 
-`
+
 
      String responseData = HttpClientTools.doGet("http://m.kaijiang.caishencai.com/cqssc/", "UTF-8");
 		
@@ -51,7 +51,7 @@ now you just need do the three step as below:
 		  System.out.println(element.text());  
              }  
     }
-    System.out.println("Result---------------------End");  	`
+    System.out.println("Result---------------------End");  	
 ***
 
 4. then you can get data like this as below:
