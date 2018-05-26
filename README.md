@@ -1,5 +1,5 @@
 # SmartWebCrawler
-it is an easy Web Crawler by with HttpClient and JSoup.
+it is an easy Web Crawler with HttpClient and JSoup.
 
 like the website http://m.kaijiang.caishencai.com/cqssc/ ?
 
