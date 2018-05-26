@@ -30,6 +30,7 @@ now you just need do the three step as below:
 ***
 
 `
+
      String responseData = HttpClientTools.doGet("http://m.kaijiang.caishencai.com/cqssc/", "UTF-8");
 		
      String html = responseData;
