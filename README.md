@@ -2,7 +2,7 @@
 it is an easy Web Crawler
 
 How to Get some data from a web site?
-'public static void main(String[] args) {
+`public static void main(String[] args) {
 		String responseData = HttpClientTools.doGet("http://m.kaijiang.caishencai.com/cqssc/", "UTF-8");
 		// System.out.println(responseData);
 		String html = responseData;
@@ -18,10 +18,10 @@ How to Get some data from a web site?
 			}
 		}
 		System.out.println("Result---------------------End");
-	}'
+	}`
 
 then you can get data like this as below:
-'Result---------------------start:
+`Result---------------------start:
 第20180526038期 2018-05-26 12:20:00 5 7 6 2 2
 第20180526037期 2018-05-26 12:10:00 9 3 1 7 8
 第20180526036期 2018-05-26 12:00:00 4 9 4 9 0
@@ -42,4 +42,4 @@ then you can get data like this as below:
 第20180526021期 2018-05-26 01:45:00 3 0 4 5 2
 第20180526020期 2018-05-26 01:40:00 4 8 6 6 2
 第20180526019期 2018-05-26 01:35:00 6 8 5 4 6
-Result---------------------End'
+Result---------------------End`
