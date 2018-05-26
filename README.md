@@ -1,9 +1,31 @@
 # SmartWebCrawler
 it is an easy Web Crawler with HttpClient and JSoup.
 
-like the website http://m.kaijiang.caishencai.com/cqssc/ ?
+like the website http://m.kaijiang.caishencai.com/cqssc/ ,if we want to get some data from the web site? 
 
-How to Get some data from a web site? 
+so what should we do?
+
+now you just need do the three step as below:
+
+1. added depdendency in your POM.xml 
+
+              <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->   
+		<dependency>   
+			<groupId>org.jsoup</groupId>    
+			<artifactId>jsoup</artifactId>   
+			<version>1.11.3</version>   
+		</dependency>  
+
+		<!-- HttpClient http://hc.apache.org/ -->   
+		<dependency>    
+			<groupId>org.apache.httpcomponents</groupId>     
+			<artifactId>httpclient</artifactId>    
+			<version>4.5.5</version>    
+		</dependency>   
+
+2. copy the HttpClientTool.java to your project
+
+3. then you can use it in the main method  like as below:
 
 ***
 
@@ -34,7 +56,7 @@ public static void main(String[] args) {
 	`
 ***
 
-then you can get data like this as below:
+4. then you can get data like this as below:
 
 ***
 
