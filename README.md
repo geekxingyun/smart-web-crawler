@@ -1,6 +1,8 @@
 # SmartWebCrawler
 it is an easy Web Crawler with HttpClient and JSoup.
 
+它是一个简单的基于HttpClient 和JSoup的网络爬虫框架
+
 like the website http://m.kaijiang.caishencai.com/cqssc/ ,if we want to get some data from the web site? 
 
 so what should we do?
