@@ -104,5 +104,5 @@ Result---------------------start:
 
 Result---------------------End
 
-如果想爬取一个网址所有的a标签可以试试用Python写的项目————[网络爬虫找a标签URL](https://github.com/geekxingyun/SmartWebCrawler/tree/master/Product)
+如果想爬取一个网址所有的a标签可以试试我用Python写的项目————[网络爬虫找a标签URL](https://github.com/geekxingyun/SmartWebCrawler/tree/master/Product)
 
