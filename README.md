@@ -56,7 +56,7 @@ now you just need do the three step as below:
     System.out.println("Result---------------------End");  	
 ***
 
-4. then you can get data like this as below:
+4. that's all , then you can get data like this as below:
 
 ***
 
