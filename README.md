@@ -104,4 +104,5 @@ Result---------------------start:
 
 Result---------------------End
 
-# 其他产品一：网络爬虫找a标签
+如果想爬取一个网址所有的a标签可以试试新产品[网络爬虫找a标签URL](https://github.com/geekxingyun/SmartWebCrawler/tree/master/Product)
+
