@@ -1,4 +1,9 @@
 # SmartWebCrawler
+
+该项目提供一个Java和Python 网络爬虫的简易解决方案~
+
+# Java 简易网络爬虫解决方案
+
 it is an easy Web Crawler with HttpClient and JSoup.
 
 它是一个简单的基于HttpClient 和JSoup的网络爬虫框架
