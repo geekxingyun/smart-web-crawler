@@ -10,7 +10,7 @@ it is an easy Web Crawler with JSoup.
 ```
 使用语言：Java
 相关类库：Jsoup
-当前版本v2.0
+当前最新版本：v2.0
 ```
 
 核心思想
