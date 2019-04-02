@@ -2,7 +2,7 @@
 
 该项目提供一个Java和Python 网络爬虫的简易解决方案~
 
-# Java 简易网络爬虫解决方案
+# Java 网络爬虫解决方案
 
 it is an easy Web Crawler with HttpClient and JSoup.
 
@@ -22,6 +22,8 @@ now you just need do the three step as below:
 
 1. added depdendency in your POM.xml 
 
+1. 添加项目依赖
+```
               <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->   
 		<dependency>   
 			<groupId>org.jsoup</groupId>    
@@ -34,16 +36,18 @@ now you just need do the three step as below:
 			<groupId>org.apache.httpcomponents</groupId>     
 			<artifactId>httpclient</artifactId>    
 			<version>4.5.5</version>    
-		</dependency>   
+		</dependency>  
+```		
 
 2. copy the HttpClientTool.java to your project
 
+2. 复制HttpClientTool.java 到你的项目中
+
 3. then you can use it in the main method  like as below:
 
-***
+3. 然后你可以使用它在主方法中这样调用
 
-
-
+```
      String responseData = HttpClientTools.doGet("http://m.kaijiang.caishencai.com/cqssc/", "UTF-8");
 		
      String html = responseData;
@@ -65,12 +69,10 @@ now you just need do the three step as below:
              }  
     }
     System.out.println("Result---------------------End");  	
-***
-
+```
 4. that's all , then you can get data like this as below:
 
-***
-
+```
 Result---------------------start:  
 
 第20180526038期 2018-05-26 12:20:00 5 7 6 2 2 
@@ -114,10 +116,13 @@ Result---------------------start:
 第20180526019期 2018-05-26 01:35:00 6 8 5 4 6  
 
 Result---------------------End
+```
 
 # Python 网络爬虫解决方案
 
-如果想爬取一个网址所有的a标签可以试试我用Python写的项目————[网络爬虫找a标签URL](https://github.com/geekxingyun/SmartWebCrawler/tree/master/Product)
+如果想爬取一个网址所有的a标签可以试试我用Python写的项目
+
+[Python爬虫获取某个网页所有的a标签中的超链接网址](https://blog.csdn.net/hadues/article/details/88981686)
 
 > 交流即分享，分享才能进步！不对之处，还请各位前辈多多指教。  by 星云
 
