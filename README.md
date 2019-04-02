@@ -43,7 +43,7 @@ v1.0版本只能解决一些最简单的数据爬取，如果页面内容是js�
 
 如果想爬取一个网址所有的a标签，那么你或许可以试试我写的这个基于beautifulsoup4的爬虫项目
 
-[Python爬虫获取某个网页所有的a标签中的超链接网址](https://blog.csdn.net/hadues/article/details/88981686)
+博文介绍：[Python爬虫获取某个网页所有的a标签中的超链接网址](https://blog.csdn.net/hadues/article/details/88981686)
 
 > 交流即分享，分享才能进步！不对之处，还请各位前辈多多指教。  by 星云
 
