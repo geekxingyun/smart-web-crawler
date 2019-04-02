@@ -32,8 +32,8 @@ v1.0 版本只能解决一些最简单的数据爬取，如果页面内容是js�
 			<version>1.11.3</version>   
 		</dependency>  
 
-3. then you can use it in the main method  like as below:
-3. 主方法中这样调用
+3.then you can use it in the main method  like as below:
+3.主方法中这样调用
 ```
 
 import java.io.IOException;
@@ -67,8 +67,8 @@ public class App {
 	}
 }
 ```
-4. that's all , then you can get data like this as below:
-4. 然后我们可以看到这样的结果：
+4.that's all , then you can get data like this as below:
+4.然后我们可以看到这样的结果：
 ***
 
 Result---------------------start:  
