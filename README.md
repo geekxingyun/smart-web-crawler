@@ -7,6 +7,10 @@
 it is an easy Web Crawler with JSoup.
 它是一个简单的基于JSoup的网络爬虫框架
 
+使用语言：Java
+相关类库：Jsoup
+
+```
 1. added depdendency in your POM.xml 
 1. 添加项目依赖
 
@@ -41,9 +45,11 @@ public class App {
 	}
 }
 ```
-4. that's all , then you can get data like this as below:
-4. 然后我们可以看到如下的结果：
+4.that's all , then you can get data like this as below:
+4.然后我们可以看到如下的结果：
+
 ```
+
 Result---------------------start:
 第20190402053期 2019-04-02 21:40:00 0 3 8 3 7
 第20190402052期 2019-04-02 21:20:00 0 7 4 6 4
@@ -66,6 +72,7 @@ Result---------------------start:
 第20190402035期 2019-04-02 15:40:00 4 5 6 8 6
 第20190402034期 2019-04-02 15:20:00 9 8 8 3 1
 Result---------------------End
+
 ```
 
 # Python 网络爬虫解决方案
