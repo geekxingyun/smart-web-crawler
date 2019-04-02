@@ -23,6 +23,7 @@ now you just need do the three step as below:
 1. added depdendency in your POM.xml 
 
 1. 添加项目依赖
+
 ```
               <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->   
 		<dependency>   
@@ -39,36 +40,34 @@ now you just need do the three step as below:
 		</dependency>  
 ```		
 
-2. copy the HttpClientTool.java to your project
+2.copy the HttpClientTool.java to your project
 
-2. 复制HttpClientTool.java 到你的项目中
+2.复制HttpClientTool.java 到你的项目中
 
-3. then you can use it in the main method  like as below:
+3.then you can use it in the main method  like as below:
 
-3. 然后你可以使用它在主方法中这样调用
+3.然后你可以使用它在主方法中这样调用
 
 ```
-     String responseData = HttpClientTools.doGet("http://m.kaijiang.caishencai.com/cqssc/", "UTF-8");
-		
-     String html = responseData;
-		
-     // 通过Jsoup解析页面,生成一个document对象;
-		
-     Document doc = Jsoup.parse(html.toString());
-
-     // 通过class的名字得到（即XX）,一个数组对象Elements里面有我们想要的数据,至于这个div的值呢你打开浏览器按下F12就知道了;
-		
-     Elements elements = doc.getElementsByClass("kaij-boxer kaij-boxer2");  
+public class App {
 	
-     System.out.println("Result---------------------start:");  
-        
-     for (Element element : elements) {  
-     // 打印出每一个节点的信息;你可以选择性的保留你想要的数据,一般都是获取个固定的索引;  
-	    if (element != null) {  
-		  System.out.println(element.text());  
-             }  
-    }
-    System.out.println("Result---------------------End");  	
+	private static String URL="http://www.discuz.net/forum.php";
+	public static void main(String[] args) throws IOException {
+		
+		//通过延迟2000毫秒然后再去请求可解决js异步加载获取不到数据的问题
+		Document doc=Jsoup.connect(URL).timeout(2000).get();
+		// 通过class的名字得到（即XX）,一个数组对象Elements里面有我们想要的数据,至于这个div的值呢你打开浏览器按下F12就知道了;
+		Elements elements = doc.getElementsByClass("x mbm cl");
+		System.out.println("Result---------------------start:");
+		for (Element element : elements) {
+			// 打印出每一个节点的信息;你可以选择性的保留你想要的数据,一般都是获取个固定的索引;
+			if (element != null) {
+				System.out.println(element.getAllElements());
+			}
+		}
+		System.out.println("Result---------------------End");
+	}
+}
 ```
 4. that's all , then you can get data like this as below:
 
