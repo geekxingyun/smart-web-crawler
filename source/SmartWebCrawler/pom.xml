@@ -5,7 +5,7 @@
 
 	<groupId>com.xingyun</groupId>
 	<artifactId>SmartWebCrawler</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>SmartWebCrawler</name>
@@ -27,13 +27,6 @@
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
 			<version>1.11.3</version>
-		</dependency>
-
-		<!-- HttpClient http://hc.apache.org/ -->
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.5</version>
 		</dependency>
 
 		<!--Gson -->
