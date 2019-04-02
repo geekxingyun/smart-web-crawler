@@ -10,9 +10,15 @@ it is an easy Web Crawler with HttpClient and JSoup.
 
 like the website http://m.kaijiang.caishencai.com/cqssc/ ,if we want to get some data from the web site? 
 
+像这个网址http://m.kaijiang.caishencai.com/cqssc/ ，如果我们想要获取这些数据从这个网站。
+
 so what should we do?
 
+我们应该怎么做？
+
 now you just need do the three step as below:
+
+现在你只需要做着三步：
 
 1. added depdendency in your POM.xml 
 
