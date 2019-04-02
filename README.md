@@ -18,14 +18,8 @@ it is an easy Web Crawler with JSoup.
 			<version>1.11.3</version>   
 		</dependency>  
 ```		
-
-2.copy the HttpClientTool.java to your project
-
-2.复制HttpClientTool.java 到你的项目中
-
 3.then you can use it in the main method  like as below:
 3.然后你可以使用它在主方法中这样调用
-
 ```
 public class App {
 	
