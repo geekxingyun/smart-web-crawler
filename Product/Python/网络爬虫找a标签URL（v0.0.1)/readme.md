@@ -1,26 +1,31 @@
-```
-1. °²×°python 3.7.1
 
-2. °²×°BeautifulSoup Python Àà¿â
+åšæ–‡ä»‹ç»ï¼š[Pythonçˆ¬è™«è·å–æŸä¸ªç½‘é¡µæ‰€æœ‰çš„aæ ‡ç­¾ä¸­çš„è¶…é“¾æ¥ç½‘å€](https://blog.csdn.net/hadues/article/details/88981686)
+
+```
+1. å®‰è£…python 
+
+https://www.python.org/downloads/
+
+2. å®‰è£…BeautifulSoup Python ç±»åº“
 
 https://www.crummy.com/software/BeautifulSoup/bs4/download/4.6/
 
-3. Éı¼¶pipµ½×îĞÂ°æ±¾
+3. å‡çº§pipåˆ°æœ€æ–°ç‰ˆæœ¬
 python -m pip install --upgrade pip 
 
-4.ÔÚÃüÁîĞĞ½øÈëbeautifulsoupµÄ°²×°Ä¿Â¼ÏÂ£¬ÊäÈëpip install bs4
+4.åœ¨å‘½ä»¤è¡Œè¿›å…¥beautifulsoupçš„å®‰è£…ç›®å½•ä¸‹ï¼Œè¾“å…¥pip install bs4
 
-5.ÔËĞĞ´Ë³ÌĞò
+5.è¿è¡Œæ­¤ç¨‹åº
 
-ÓÃ·¨Ò»£º
+ç”¨æ³•ä¸€ï¼š
 
-Ä¬ÈÏÇëÇó´úÂëÖĞĞ´ÈëµÄÍøÖ·,½«ÍøÖ·ÖĞËùÓĞµÄa href ±êÇ©Ö´ÏòµÄURL¼ÇÂ¼ÏÂÀ´
+é»˜è®¤è¯·æ±‚ä»£ç ä¸­å†™å…¥çš„ç½‘å€,å°†ç½‘å€ä¸­æ‰€æœ‰çš„a href æ ‡ç­¾æ‰§å‘çš„URLè®°å½•ä¸‹æ¥
 
 python SmartWebCrawler.py 
 
-ÓÃ·¨¶ş:
+ç”¨æ³•äºŒ:
 
-ÃüÁîĞĞÊäÈëÍøÖ·£¬½«ÍøÖ·ÖĞËùÓĞµÄa href ±êÇ©Ö´ÏòµÄURL¼ÇÂ¼ÏÂÀ´
+å‘½ä»¤è¡Œè¾“å…¥ç½‘å€ï¼Œå°†ç½‘å€ä¸­æ‰€æœ‰çš„a href æ ‡ç­¾æ‰§å‘çš„URLè®°å½•ä¸‹æ¥
 
 python SmartWebCrawler.py http://www.runoob.com/
 ```
