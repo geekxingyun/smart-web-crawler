@@ -35,7 +35,6 @@ Key Point:
 博文介绍：[Python爬虫获取某个网页所有的a标签中的超链接网址](https://blog.csdn.net/hadues/article/details/88981686)
 
 ---
-
 # 关于我
 
 > 交流即分享，分享才能进步！ by 星云
@@ -47,14 +46,9 @@ Key Point:
 
 [星云微博](https://weibo.com/xingyunsky)
 
-# 关注与打赏
+# 关注与赞赏
 
-<div align="center">
- <a href="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/resources/images/follow-me-and-award-me.png">
- <img src="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/resources/images/follow-me-and-award-me.png">
- </img>
-  </a>
-</div>
+<div align="center"><img src="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/assets/images/follow-me-and-award-me.png?raw=true"/></div>
 
 # 联系我
 
