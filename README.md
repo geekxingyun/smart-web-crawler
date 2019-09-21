@@ -47,7 +47,7 @@ Key Point:
 
 [星云微博](https://weibo.com/xingyunsky)
 
-# 关注与赞赏
+# 关注与打赏
 
 <div align="center">
  <a href="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/resources/images/follow-me-and-award-me.png">
