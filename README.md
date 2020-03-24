@@ -60,7 +60,7 @@ python SmartWebCrawler.py
 ```
 - Usage two:
 
-命令行输入网址，将网址中所有的a href 标签执向的URL记录下来
+type the URL from the command line, and record all the URLs directed by the a href tag in the URL.
 
 ```
 python SmartWebCrawler.py http://www.runoob.com/
