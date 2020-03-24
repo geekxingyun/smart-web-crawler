@@ -9,47 +9,26 @@ it is an easy Web Crawler with Java.
 ```
 Language：Java
 lib：Jsoup
-version：v2.0
+Current latest version：v2.0
 ```
-
 Key Point:
 
-1.Jsoup 延迟访问页面的内容
+1.Jsoup delayed access to the content of the page
 
-2.然后使用Jsoup将请求的结果解析成Document对象
+2. Then use Jsoup to parse the result of the request into a Document object
 
-3.根据Document API像操作JS一样访问页面
+3. Visit the page like a JS according to the Document API
 
-博文介绍：[Java爬虫获取某个页面中指定节点的内容](https://blog.csdn.net/hadues/article/details/88983055)
+Article introduction：[Java爬虫获取某个页面中指定节点的内容](https://blog.csdn.net/hadues/article/details/88983055)
 
-# Python 网络爬虫解决方案
+# Easy Web Crawler With Python
 
-使用语言：Python
+```
+Language：Python
 
-相关类库：urllib,beautifulsoup4
+third-party lib：urllib,beautifulsoup4
+```
 
----
+If you want to crawl all the a tags of a URL, then you may try this beautifulsoup4 based crawler project I wrote.
 
-如果想爬取一个网址所有的a标签，那么你或许可以试试我写的这个基于beautifulsoup4的爬虫项目
-
-博文介绍：[Python爬虫获取某个网页所有的a标签中的超链接网址](https://blog.csdn.net/hadues/article/details/88981686)
-
----
-# 关于我
-
-> 交流即分享，分享才能进步！ by 星云
-
-
-[星云CSDN博客](https://blog.csdn.net/hadues)
-
-[星云GitHub](https://github.com/geekxingyun)
-
-[星云微博](https://weibo.com/xingyunsky)
-
-# 关注与赞赏
-
-<div align="center"><img src="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/assets/images/follow-me-and-award-me.png?raw=true"/></div>
-
-# 联系我
-
-Email: fairy_xingyun@hotmail.com
+Article introduction：[Python爬虫获取某个网页所有的a标签中的超链接网址](https://blog.csdn.net/hadues/article/details/88981686)
