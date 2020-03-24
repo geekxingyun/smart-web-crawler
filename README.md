@@ -31,6 +31,8 @@ third-party lib：urllib,beautifulsoup4
 
 If you want to crawl all the a tags of a URL, then you may try this beautifulsoup4 based crawler project I wrote.
 
+## Get Started
+
 1. install python 
 ```
 https://www.python.org/downloads/
@@ -43,11 +45,11 @@ https://www.crummy.com/software/BeautifulSoup/bs4/download/4.6/
 ```
 python -m pip install --upgrade pip 
 ```
-4.come into beautifulsoup folder，type 
+4. come into beautifulsoup folder，type 
 ```
 pip install bs4
 ```
-5.run the program
+5. run the program
 
 - Usage one：
 
